@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Pirate Cove</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="photos.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="container-fluid p-0">
+    <header class="text-light text-center py-5">
+      <h1 class="display-4">SHIP'S LOG</h1>
+      <p class="lead">A diary by Capt. G Dub</p>
+    </header>
+  </div>
+
+  <!--Carousel here-->
+  <div id="carouselExampleCaptions" class="carousel slide p-3" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="col-md-8 mx-auto">
+          <img src="img/kraken01.jpg" class="d-block w-100" alt="Sea monster attacking ship">
+        </div>
+        <div class="captions">
+          <div class="carousel-caption d-md-block text-bottom">
+            <p class="lower-caption">Lewis the Sea Monster attacks a ship</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-md-8 mx-auto">
+          <img src="img/kraken02.jpg" class="d-md-block w-100" alt="Sea monster lifting ship">
+        </div>
+        <div class="carousel-caption d-md-block text-center">
+          <p class="lower-caption">Max the Sea Monster lifts a ship</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-md-8 mx-auto">
+          <img src="img/kraken03.jpg" class="d-md-block w-100" alt="Sea monster fighting sailor">
+        </div>
+        <div class="carousel-caption d-md-block text-center">
+          <p class="lower-caption">Alonso the Sea Monster fighting a sailor</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Footer starts here -->
+  <footer class="p-2 text-center text-light">
+    <p>Site by Kevin Baskar</p>
+  </footer>
+
+  <!-- Closing scripts here -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

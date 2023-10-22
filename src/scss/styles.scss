@@ -22,5 +22,19 @@
 
 // Import partials:
 
+@import 'jumbotron';
+
 // Custom styles:
 
+footer {
+    background-color: lightseagreen;
+    text-align: center;
+  }
+  
+  .carousel{
+    height: 75%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }

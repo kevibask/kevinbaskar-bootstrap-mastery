@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <title>Bootstrap 5 Layout</title>
+  <title>Priate Cove</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
@@ -9,7 +9,82 @@
 
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="container-fluid p-0">
+    <header class="text-light text-center py-5">
+      <h1 class="display-4">SHIP's LOG</h1>
+      <p class="lead">A diary by Capt. G Dub</p>
+    <header>
+  </div>
+
+  <section class="container">
+    <div class="row">
+      <div class="container-fluid pt-3 pb-3">
+          <h2>Thar be monsters in the sea</h2>
+      </div>
+      <div class="col-md-6 col-lg-4 ">
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-white">
+          <img src="img/kraken01.jpg" alt="Lewis who is a monsters">
+          <div class="card-body">
+            <h5 class="card-title">Lewis</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio, ullam minus dolorum ut quia numquam maxime, animi dolores perspiciatis ipsam mollitia quasi laboriosam eaque, quod neque?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-white">
+          <img src="img/kraken02.jpg" alt="Max who is a monster">
+          <div class="card-body">
+            <h5 class="card-title">Max</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio, ullam minus dolorum ut quia numquam maxime, animi dolores perspiciatis ipsam mollitia quasi laboriosam eaque, quod neque?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-white">
+          <img src="img/kraken03.jpg" alt="Alonso who is a monster">
+          <div class="card-body">
+            <h5 class="card-title">Alonso</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem optio, ullam minus dolorum ut quia numquam maxime, animi dolores perspiciatis ipsam mollitia quasi laboriosam eaque, quod neque?</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+  <!-- Footer starts here -->
+  <footer class="p-2 text-center text-light">
+    <p>Site by Kevin Baskar</p>
+  </footer>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
